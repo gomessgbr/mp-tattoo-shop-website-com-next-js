@@ -1,8 +1,6 @@
-
-import whatsIcon from '../../../assets/whatsAppIcon.svg'
-import { PointSeparator } from '@components/point-separator/point-separator';
-import Image from 'next/image';
-
+import whatsIcon from "../../../assets/whatsAppIcon.svg";
+import { PointSeparator } from "@components/point-separator/point-separator";
+import Image from "next/image";
 
 export function DefaultFooter() {
   return (
