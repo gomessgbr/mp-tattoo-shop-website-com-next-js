@@ -22,6 +22,9 @@ export default {
         island: ["var(--font-island-moments)"],
       },
     },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 } satisfies Config;
