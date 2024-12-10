@@ -17,7 +17,7 @@ export default function Home() {
         width={400}
         src={portrait}
         alt="Retrato de Sandro Luz"
-        className="absolute right-0 -bottom-20 grayscale"
+        className="absolute -right-16 -bottom-20 grayscale"
       />
     </main>
   );

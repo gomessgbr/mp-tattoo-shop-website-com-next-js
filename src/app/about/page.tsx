@@ -44,7 +44,7 @@ export default function About() {
         width={400}
         src={portrait}
         alt="Retrato de Sandro Luz"
-        className="absolute right-0 -bottom-0 grayscale"
+        className="absolute right-0 -bottom-0"
       />
     </main>
   );

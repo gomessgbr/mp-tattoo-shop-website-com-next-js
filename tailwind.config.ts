@@ -24,6 +24,9 @@ export default {
     },
     container: {
       center: true,
+      padding: {
+        xl: "10rem",
+      },
     },
   },
   plugins: [],
