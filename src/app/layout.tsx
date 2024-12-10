@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import React from "react";
 
 import "./globals.css";
 import Navbar from "./_components/navbar";
@@ -21,7 +22,7 @@ export default function RootLayout({
         className={`${inter.className} ${londrina_solid.variable} ${island_moments.variable} antialiased bg-background  flex flex-col min-h-screen`}
       >
         <Navbar />
-        <div className="flex-1 container">{children}</div>
+        <div className="flex-1 container flex flex-col">{children}</div>
         <Footer />
       </body>
     </html>
